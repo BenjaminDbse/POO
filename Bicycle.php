@@ -8,10 +8,10 @@ class Bicycle
 {
     const forward = 10;
 
-    private $nbWheels;
+    private $nbWheels = 2;
     private $currentSpeed;
     private $color;
-    private $nbSeats;
+    private $nbSeats = 1;
     private $energy;
     private $energyLevel;
 
