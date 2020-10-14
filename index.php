@@ -1,7 +1,9 @@
 <?php
 
 require 'Car.php';
+require 'Bicycle.php';
 
+use Bicycles\Bicycle;
 use Cars\Car;
 
 $car = new car('darkblue', 5, 'gasol');
