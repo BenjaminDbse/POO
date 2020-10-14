@@ -20,14 +20,14 @@ $bicycle= new \Bicycles\Bicycle('black',1,'foot');
 
 
 echo $car->forward();
-echo '<br> Vitesse de la bagnole : ' . $car->getCurrentSpeed() . 'km/h' . '<br>';
+echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . 'km/h' . '<br>';
 echo $car->brake();
-echo '<br> Vitesse de la bagnole : ' . $car->getCurrentSpeed() . 'km/h' . '<br>';
+echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . 'km/h' . '<br>';
 echo $car->brake();
 
 
 echo $bicycle->forward();
-echo '<br> Vitesse de la bagnole : ' . $bicycle->getCurrentSpeed() . 'km/h' . '<br>';
+echo '<br> Vitesse du vélo : ' . $bicycle->getCurrentSpeed() . 'km/h' . '<br>';
 echo $bicycle->brake();
-echo '<br> Vitesse de la bagnole : ' . $bicycle->getCurrentSpeed() . 'km/h' . '<br>';
+echo '<br> Vitesse du vélo : ' . $bicycle->getCurrentSpeed() . 'km/h' . '<br>';
 echo $bicycle->brake();
