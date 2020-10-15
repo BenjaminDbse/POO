@@ -120,7 +120,7 @@ class Car
 
     public function forward()
     {
-        if ($this->getEnergyLevel() > self::forward) {
+        while ($this->getEnergyLevel() > self::forward) {
             $this->setEnergyLevel($this->getEnergyLevel() - self::forward);
         }
     }
